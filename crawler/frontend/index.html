@@ -1,0 +1,23 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <label for="tonic">Tonic: </label>
+        <select name="tonic" id="tonic"></select>
+        <label for="tonality">Tonality: </label>
+        <select name="tonality" id="tonality">
+            <option id="tonality-major">Major</option>
+            <option id="tonality-minor">Minor</option>
+        </select>
+        <label for="chord-input">Chord Input: </label>
+        <input type="text" name="chord-input" id="chord-input">
+        <button id="submit-button">Submit</button>
+        <div>
+            <p>Output</p>
+            <p id="chord-output"></p>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
